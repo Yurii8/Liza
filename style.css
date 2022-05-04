@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 10%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.wraper{
+    width: 100%;
+    height: 100vh;
+    background: url(images/background-baner.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 80%;
+    height: inherit;
+}
+ul{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+li{
+    list-style: none;
+    margin-right: 3%;
+}
+li:last-child{
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+.baner{
+    width: 100%;
+    height: calc(100vh - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.baner h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.49);
+}
+footer{
+    width: 100%;
+    height: max-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #1d1a1a;
+    text-align: center;
+}
+footer h1{
+    color: white;
+    padding-bottom: 40px;
+}
+.footer-nav a{
+    display: block;
+    margin-top: 15px;
+}
+.footer-nav a:first-child{
+    margin-top: 0px;
+}
+.about-italy{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.about-italy h1{
+    padding-top: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 36px;
+}
+.about-italy p{
+    font-size: 18px;
+    max-width: 1020px;
+}
+.info-italy-count{
+    display: flex;
+    justify-content: space-between;
+}
+.ilustration-to-text-info{
+    width: 250px;
+    height: 150px;
+    background: url(images/Flag_of_Italy.svg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.ilustration-to-text-info-2{
+    width: 250px;
+    height: 150px;
+    background: url(images/Emblem_of_Italy.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.ilustration-to-text-info-3{
+    width: 250px;
+    height: 150px;
+    background: url(images/Italy_topographic_map-blank.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-1{
+    width: 250px;
+    height: 150px;
+    background: url(images/vatikan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-2{
+    width: 250px;
+    height: 150px;
+    background: url(images/panteon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-3{
+    width: 250px;
+    height: 150px;
+    background: url(images/Castel-del-Monte-Italia-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-4{
+    width: 250px;
+    height: 150px;
+    background: url(images/Colosseo_Roma1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-5{
+    width: 250px;
+    height: 150px;
+    background: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.place-i-6{
+    width: 250px;
+    height: 150px;
+    background: url(images/Villa_Adriana_Tivoli_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
